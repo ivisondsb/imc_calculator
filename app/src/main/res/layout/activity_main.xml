@@ -31,23 +31,31 @@
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Insira sua Altura (M)"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
     <EditText
-        android:id="@+id/peso"
+        android:id="@+id/edtpeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:ems="10"
         android:hint="Insira seu Peso (KG)"
-        android:inputType="numberDecimal" />
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/calc"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
         android:backgroundTint="@color/teal_200"
         android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
